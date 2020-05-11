@@ -1,4 +1,4 @@
-# typescript-react-snippets README
+# typescript-react-snippets
 
 为 Typescript 下开发 React 组件打造的 VSCode Snippets 插件
 
