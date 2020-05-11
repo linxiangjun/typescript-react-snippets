@@ -1,9 +1,8 @@
 # Change Log
 
-All notable changes to the "typescript-react-snippets" extension will be documented in this file.
+## [1.0.0] - 2020-05-11
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### Added
 
-## [Unreleased]
-
-- Initial release
+- react class component skeleton
+- react function component skeleton
