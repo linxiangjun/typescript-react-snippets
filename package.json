@@ -1,0 +1,30 @@
+{
+  "name": "typescript-react-snippets",
+  "displayName": "TypeScript React Snippets",
+  "description": "Typescript react snippets for VSCode",
+  "keywords": [
+    "typescript",
+    "react",
+    "snippets"
+  ],
+  "version": "1.0.0",
+  "publisher": "xiangjun",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linxiangjun/typescript-react-snippets"
+  },
+  "engines": {
+    "vscode": "^1.45.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

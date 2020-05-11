@@ -1,0 +1,29 @@
+{
+  "React Class Component": {
+    "prefix": "rcc",
+    "body": [
+      "import React from 'react'",
+      "",
+      "class ${1:MyComponent} extends React.Component {",
+      "\trender() {",
+      "\t\treturn 'hello world'",
+      "\t}",
+      "}",
+      "",
+      "export default ${2:MyComponent}"
+    ],
+    "description": "Create a react class component."
+  },
+  "React Function Component": {
+    "prefix": "rfc",
+    "body": [
+      "import React from 'react'",
+      "",
+      "const ${1:MyComponent}: React.FC = () => {",
+      "\treturn 'hello world'",
+      "}",
+      "",
+      "export default ${2:MyComponent}"
+    ]
+  }
+}
