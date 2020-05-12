@@ -24,6 +24,40 @@
       "}",
       "",
       "export default ${2:MyComponent}"
-    ]
+    ],
+    "description": "Create a react function component."
+  },
+  "React Class Component With Lifecycle": {
+    "prefix": "rccl",
+    "body": [
+      "import React from 'react'\n",
+      "interface State {}\n",
+      "interface Props {}\n",
+      "class ${1:MyComponent} extends React.Component {",
+      "\tstate: State = {}\n",
+      "\tcomponentWillMount() {}\n",
+      "\tcomponentDidMount() {}\n",
+      "\tcomponentWillReceiveProps(nextProps: Props) {}\n",
+      "\tshouldComponentUpdate(nextProps: Props, nextState: State) {\n \treturn true\n }\n",
+      "\tcomponentWillUpdate(nextProps: Props, nextState: State) {}\n",
+      "\tcomponentDidUpdate(prevProps: Props, prevState: State) {}\n",
+      "\tcomponentWillUnmount() {}\n",
+      "\trender() {",
+      "\t\treturn 'hello world'",
+      "\t}",
+      "}\n",
+      "export default ${2:MyComponent}"
+    ],
+    "description": "Create a react class component with lifecycle."
+  },
+  "React UseState Hooks": {
+    "prefix": "rus",
+    "body": ["const [${1:state}, ${2:setState}] = useState($3)"],
+    "description": "Initialize useState hooks."
+  },
+  "React UseEffect Hooks": {
+    "prefix": "rue",
+    "body": ["useEffect(() => {\n}, [$1])"],
+    "description": "Initialize useEffect hooks."
   }
 }
