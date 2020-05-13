@@ -14,4 +14,3 @@
 - React class component with lifecycle skeleton.
 - UseState hooks.
 - UseEffect hooks.
-- UseRef hooks.
